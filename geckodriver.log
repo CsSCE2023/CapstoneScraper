@@ -1,0 +1,128 @@
+1681399489270	geckodriver	INFO	Listening on 127.0.0.1:53156
+1681399489425	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/z9/n5cyxx9n7_s_y0wwdxm0rx0w0000gn/T/rust_mozprofilesndZtd"
+1681399490042	Marionette	INFO	Marionette enabled
+1681399490347	Marionette	INFO	Listening on port 53364
+Read port: 53364
+WebDriver BiDi listening on ws://127.0.0.1:53157
+1681399490484	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/z9/n5cyxx9n7_s_y0wwdxm0rx0w0000gn/T/rust_mozprofilesndZtd/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53157/devtools/browser/82dd8015-8000-4a41-ae69-1eb7f1b27ef1
+JavaScript warning: https://assets.adobedtm.com/launch-ENcd518efa263e42028901c695e6d2b16e.min.js, line 7: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdns.gigya.com/js/gigya.js?apikey=4_Pm2iEdcXqemvFXXNH9gAWg, line 66: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript error: https://assets.adobedtm.com/3414aca5c993/1e4869c3e4fa/ce4c707af54a/EX010ca77641fa4bfd812ed05dcc7a21bd-libraryCode_source.min.js, line 3: ReferenceError: _ADB is not defined
+JavaScript error: https://assets.adobedtm.com/launch-ENcd518efa263e42028901c695e6d2b16e.min.js, line 3: ReferenceError: _ADB is not defined
+JavaScript error: https://www.aldi-nord.de/etc/designs/aldi/web/clientlibs/js/cdc.ACSHASH21f34696b4669c0714d41f0fa29d63f4.js, line 1: TypeError: configElementKymaUrl is null
+[GFX1-]: Unrecognized feature ACCELERATED_CANVAS2D
+1681400085084	geckodriver	INFO	Listening on 127.0.0.1:56838
+1681400085589	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/z9/n5cyxx9n7_s_y0wwdxm0rx0w0000gn/T/rust_mozprofileDVHZfk"
+1681400086256	Marionette	INFO	Marionette enabled
+1681400086363	Marionette	INFO	Listening on port 56854
+Read port: 56854
+WebDriver BiDi listening on ws://127.0.0.1:56839
+1681400087079	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/z9/n5cyxx9n7_s_y0wwdxm0rx0w0000gn/T/rust_mozprofileDVHZfk/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56839/devtools/browser/ed1570df-aaa9-4d1c-9e11-54d6da20489d
+JavaScript warning: https://assets.adobedtm.com/launch-ENcd518efa263e42028901c695e6d2b16e.min.js, line 7: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://www.aldi-nord.de/etc/designs/aldi/web/clientlibs/js/cdc.ACSHASH21f34696b4669c0714d41f0fa29d63f4.js, line 1: TypeError: configElementKymaUrl is null
+1681400166423	geckodriver	INFO	Listening on 127.0.0.1:57373
+1681400166934	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/z9/n5cyxx9n7_s_y0wwdxm0rx0w0000gn/T/rust_mozprofileiFx1np"
+1681400167412	Marionette	INFO	Marionette enabled
+1681400167508	Marionette	INFO	Listening on port 57404
+Read port: 57404
+WebDriver BiDi listening on ws://127.0.0.1:57374
+1681400168222	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/z9/n5cyxx9n7_s_y0wwdxm0rx0w0000gn/T/rust_mozprofileiFx1np/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57374/devtools/browser/4684d03a-78c8-4f8c-8feb-4637a32a4d51
+JavaScript warning: https://assets.adobedtm.com/launch-ENcd518efa263e42028901c695e6d2b16e.min.js, line 7: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://assets.adobedtm.com/3414aca5c993/1e4869c3e4fa/ce4c707af54a/EX010ca77641fa4bfd812ed05dcc7a21bd-libraryCode_source.min.js, line 3: ReferenceError: _ADB is not defined
+JavaScript error: https://assets.adobedtm.com/launch-ENcd518efa263e42028901c695e6d2b16e.min.js, line 3: ReferenceError: _ADB is not defined
+JavaScript error: https://www.aldi-nord.de/etc/designs/aldi/web/clientlibs/js/cdc.ACSHASH21f34696b4669c0714d41f0fa29d63f4.js, line 1: TypeError: configElementKymaUrl is null
+1681400216425	Marionette	INFO	Stopped listening on port 57404
+1681400219521	Marionette	INFO	Stopped listening on port 56854
+1681400266665	geckodriver	INFO	Listening on 127.0.0.1:58216
+1681400267179	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/z9/n5cyxx9n7_s_y0wwdxm0rx0w0000gn/T/rust_mozprofiletZ6YVh"
+1681400267623	Marionette	INFO	Marionette enabled
+1681400267707	Marionette	INFO	Listening on port 58230
+Read port: 58230
+WebDriver BiDi listening on ws://127.0.0.1:58217
+1681400268192	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/z9/n5cyxx9n7_s_y0wwdxm0rx0w0000gn/T/rust_mozprofiletZ6YVh/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58217/devtools/browser/6eeb7500-ba95-4d7d-a92f-b63c071964c6
+JavaScript warning: https://assets.adobedtm.com/launch-ENcd518efa263e42028901c695e6d2b16e.min.js, line 7: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://assets.adobedtm.com/3414aca5c993/1e4869c3e4fa/ce4c707af54a/EX010ca77641fa4bfd812ed05dcc7a21bd-libraryCode_source.min.js, line 3: ReferenceError: _ADB is not defined
+JavaScript error: https://assets.adobedtm.com/launch-ENcd518efa263e42028901c695e6d2b16e.min.js, line 3: ReferenceError: _ADB is not defined
+JavaScript error: https://www.aldi-nord.de/etc/designs/aldi/web/clientlibs/js/cdc.ACSHASH21f34696b4669c0714d41f0fa29d63f4.js, line 1: TypeError: configElementKymaUrl is null
+1681400349255	Marionette	INFO	Stopped listening on port 58230
+1681400364190	geckodriver	INFO	Listening on 127.0.0.1:58850
+1681400364706	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/z9/n5cyxx9n7_s_y0wwdxm0rx0w0000gn/T/rust_mozprofile0f6XjV"
+1681400365170	Marionette	INFO	Marionette enabled
+1681400365260	Marionette	INFO	Listening on port 58867
+Read port: 58867
+WebDriver BiDi listening on ws://127.0.0.1:58851
+1681400365464	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/z9/n5cyxx9n7_s_y0wwdxm0rx0w0000gn/T/rust_mozprofile0f6XjV/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58851/devtools/browser/2e9d7e6a-b7f4-44e0-9bfe-f86dc073acc4
+JavaScript warning: https://assets.adobedtm.com/launch-ENcd518efa263e42028901c695e6d2b16e.min.js, line 7: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://assets.adobedtm.com/3414aca5c993/1e4869c3e4fa/ce4c707af54a/EX010ca77641fa4bfd812ed05dcc7a21bd-libraryCode_source.min.js, line 3: ReferenceError: _ADB is not defined
+JavaScript error: https://assets.adobedtm.com/launch-ENcd518efa263e42028901c695e6d2b16e.min.js, line 3: ReferenceError: _ADB is not defined
+JavaScript error: https://www.aldi-nord.de/etc/designs/aldi/web/clientlibs/js/cdc.ACSHASH21f34696b4669c0714d41f0fa29d63f4.js, line 1: TypeError: configElementKymaUrl is null
+1681400462192	geckodriver	INFO	Listening on 127.0.0.1:59502
+1681400462704	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/z9/n5cyxx9n7_s_y0wwdxm0rx0w0000gn/T/rust_mozprofileL0eFM6"
+1681400463117	Marionette	INFO	Marionette enabled
+1681400463188	Marionette	INFO	Listening on port 59517
+Read port: 59517
+WebDriver BiDi listening on ws://127.0.0.1:59503
+1681400463465	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/z9/n5cyxx9n7_s_y0wwdxm0rx0w0000gn/T/rust_mozprofileL0eFM6/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59503/devtools/browser/a3c0c3a6-f52a-4bd6-b954-93d55f661a92
+JavaScript warning: https://assets.adobedtm.com/launch-ENcd518efa263e42028901c695e6d2b16e.min.js, line 7: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://www.aldi-nord.de/etc/designs/aldi/web/clientlibs/js/cdc.ACSHASH21f34696b4669c0714d41f0fa29d63f4.js, line 1: TypeError: configElementKymaUrl is null
+1681400514308	geckodriver	INFO	Listening on 127.0.0.1:59880
+1681400514820	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/z9/n5cyxx9n7_s_y0wwdxm0rx0w0000gn/T/rust_mozprofileJqDBmJ"
+1681400515240	Marionette	INFO	Marionette enabled
+1681400515302	Marionette	INFO	Listening on port 59896
+Read port: 59896
+WebDriver BiDi listening on ws://127.0.0.1:59881
+1681400515565	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1681400515885	Marionette	INFO	Stopped listening on port 58867
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/z9/n5cyxx9n7_s_y0wwdxm0rx0w0000gn/T/rust_mozprofileJqDBmJ/search.json.mozlz4", (void 0)))
+1681400517269	Marionette	INFO	Stopped listening on port 59517
+DevTools listening on ws://127.0.0.1:59881/devtools/browser/4994529d-4b2b-4bb9-b3f1-72559c21d300
+JavaScript warning: https://assets.adobedtm.com/launch-ENcd518efa263e42028901c695e6d2b16e.min.js, line 7: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://assets.adobedtm.com/3414aca5c993/1e4869c3e4fa/ce4c707af54a/EX010ca77641fa4bfd812ed05dcc7a21bd-libraryCode_source.min.js, line 3: ReferenceError: _ADB is not defined
+JavaScript error: https://assets.adobedtm.com/launch-ENcd518efa263e42028901c695e6d2b16e.min.js, line 3: ReferenceError: _ADB is not defined
+JavaScript error: https://www.aldi-nord.de/etc/designs/aldi/web/clientlibs/js/cdc.ACSHASH21f34696b4669c0714d41f0fa29d63f4.js, line 1: TypeError: configElementKymaUrl is null
+1681400520811	Marionette	INFO	Stopped listening on port 59896
+1681400524775	geckodriver	INFO	Listening on 127.0.0.1:59981
+1681400524785	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/z9/n5cyxx9n7_s_y0wwdxm0rx0w0000gn/T/rust_mozprofileVMsDxg"
+1681400525225	Marionette	INFO	Marionette enabled
+1681400525457	Marionette	INFO	Listening on port 59995
+Read port: 59995
+WebDriver BiDi listening on ws://127.0.0.1:59982
+1681400525540	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/z9/n5cyxx9n7_s_y0wwdxm0rx0w0000gn/T/rust_mozprofileVMsDxg/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59982/devtools/browser/5c3a3bd2-42ed-4f91-9d51-f321cecc910a
+JavaScript warning: https://assets.adobedtm.com/launch-ENcd518efa263e42028901c695e6d2b16e.min.js, line 7: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://www.aldi-nord.de/etc/designs/aldi/web/clientlibs/js/cdc.ACSHASH21f34696b4669c0714d41f0fa29d63f4.js, line 1: TypeError: configElementKymaUrl is null
+1681400757646	geckodriver	INFO	Listening on 127.0.0.1:61437
+1681400758154	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/z9/n5cyxx9n7_s_y0wwdxm0rx0w0000gn/T/rust_mozprofilecqbbos"
+1681400758526	Marionette	INFO	Marionette enabled
+1681400758588	Marionette	INFO	Listening on port 61449
+Read port: 61449
+WebDriver BiDi listening on ws://127.0.0.1:61438
+1681400758820	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/z9/n5cyxx9n7_s_y0wwdxm0rx0w0000gn/T/rust_mozprofilecqbbos/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:61438/devtools/browser/1211c60b-0813-49ad-9852-18fbb1d3cecd
+1681400761250	Marionette	INFO	Stopped listening on port 59995
+JavaScript warning: https://assets.adobedtm.com/launch-ENcd518efa263e42028901c695e6d2b16e.min.js, line 7: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://www.aldi-nord.de/etc/designs/aldi/web/clientlibs/js/cdc.ACSHASH21f34696b4669c0714d41f0fa29d63f4.js, line 1: TypeError: configElementKymaUrl is null
+[GFX1-]: Unrecognized feature ACCELERATED_CANVAS2D
