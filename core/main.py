@@ -1,29 +1,30 @@
-# -*- coding: utf-8 -*-
 """
 Created on Tue Mar 20 16:23:53 2018
 """
 import re
+import time
+from re import Match
+from typing import Optional
+
+import pandas as pd
+from bs4 import BeautifulSoup as bs
+from selenium import webdriver
+
+
 # scraping CME is soooo effortless
 # just simple html parse tree
 # how i love Chicago
-import urllib.request as u
-import pandas as pd
-from bs4 import BeautifulSoup as bs
-# from requests_html import HTMLSession
-from selenium import webdriver
-import time
-def scrape():
+def scrape() -> bs:
     driver = webdriver.Firefox()
-    driver.get('https://www.aldi-nord.de/angebote.html#2023-04-11-10-obst-gemuese')
+    driver.get("https://www.aldi-nord.de/angebote.html#2023-04-11-10-obst-gemuese")
     time.sleep(5)
     htmlSource = driver.page_source
-    soup = bs(htmlSource, 'html.parser')
+    soup = bs(htmlSource, "html.parser")
 
     return soup
 
 
-#
-def etl():
+def etl() -> pd.DataFrame:
     try:
         page = scrape()
         print(page)
@@ -48,17 +49,20 @@ def etl():
         price = i.find("span", class_="price__wrapper")
         link = i.find("a")
 
-        a.append(link['href'])
+        a.append(link["href"])
         b.append(title.text.strip())
-        c.append(re.search('[0-9.]+',price.text).group())
+        match: Optional[Match[str]] = re.search("[0-9.]+", price.text)
+        if match is not None:
+            c.append(match.group())
+
     df = pd.DataFrame()
-    df['article_link'] = a
-    df['title'] = b
-    df['price'] = c
+    df["article_link"] = a
+    df["title"] = b
+    df["price"] = c
     return df
 
 
-def main():
+def main() -> None:
     # scraping and etl
     df1 = etl()
     # df2 = etl('precious', 'gold')
@@ -68,7 +72,7 @@ def main():
     # concatenate then export
     # dd = pd.concat([df1, df2, df3, df4])
     dd = pd.concat([df1])
-    dd.to_csv('aldi.csv', encoding='utf_8_sig')
+    dd.to_csv("/data/aldi.csv", encoding="utf_8_sig")
 
 
 if __name__ == "__main__":
