@@ -1,79 +1,89 @@
 """
 Created on Tue Mar 20 16:23:53 2018
 """
+
+import configparser
+import os
 import re
 import time
-from re import Match
 from typing import Optional
 
 import pandas as pd
-from bs4 import BeautifulSoup as bs
+from bs4 import BeautifulSoup
 from selenium import webdriver
 
 
-# scraping CME is soooo effortless
-# just simple html parse tree
-# how i love Chicago
-def scrape() -> bs:
-    driver = webdriver.Firefox()
-    driver.get("https://www.aldi-nord.de/angebote.html#2023-04-11-10-obst-gemuese")
-    time.sleep(5)
-    htmlSource = driver.page_source
-    soup = bs(htmlSource, "html.parser")
+# Main scraper class
+class Scraper:
+    def __init__(self):
+        self.config = self.read_config()
+        self.aldi_data_path = self.get_path(self.config["paths"]["aldi_data"])
 
-    return soup
+    # Define the function to construct absolute path from relative paths
+    @staticmethod
+    def get_path(relative_path: str) -> str:
+        script_dir = os.path.dirname(os.path.abspath(__file__))
+        final_path = os.path.join(script_dir, relative_path)
+        return final_path
 
+    # Define the function to read the configuration settings from config.ini
+    @staticmethod
+    def read_config() -> configparser.ConfigParser:
+        config = configparser.ConfigParser()
+        config_path = Scraper.get_path("../config.ini")
+        config.read(config_path)
+        return config
 
-def etl() -> pd.DataFrame:
-    try:
-        page = scrape()
-        print(page)
+    # Define the function for parsing html with Beautiful soup
+    def scrape(self) -> BeautifulSoup:
+        driver = webdriver.Chrome()
+        driver.get("https://www.aldi-nord.de/angebote.html#2023-04-11-10-obst-gemuese")
+        time.sleep(5)
+        html_source = driver.page_source
+        soup = BeautifulSoup(html_source, "html.parser")
+        return soup
 
-    except Exception as e:
-        print(e)
+    # Define the function for scraping with selenium
+    def etl(self) -> pd.DataFrame:
+        try:
+            page = self.scrape()
 
-    # i need date, prior settle price and volume
-    # it is essential to view source of the website first
-    # then use beautiful soup to search specific class
-    p1 = page.find_all("div", class_="mod-article-tile")
-    # p2 = page.find_all('td', class_=['statusOK', 'statusNull', 'statusAlert'])
-    # p3 = page.find_all('td', class_="cmeTableRight")
+        except Exception as e:
+            print(e)
 
-    a = []
-    b = []
-    c = []
+        p1 = page.find_all("div", class_="mod-article-tile")
 
-    for i in p1:
-        # innerDiv = i.find("div",class_="mod-article-tile__content")
-        title = i.find("span", class_="mod-article-tile__title")
-        price = i.find("span", class_="price__wrapper")
-        link = i.find("a")
+        a = []
+        b = []
+        c = []
 
-        a.append(link["href"])
-        b.append(title.text.strip())
-        match: Optional[Match[str]] = re.search("[0-9.]+", price.text)
-        if match is not None:
-            c.append(match.group())
+        for i in p1:
+            title = i.find("span", class_="mod-article-tile__title")
+            price = i.find("span", class_="price__wrapper")
+            link = i.find("a")
 
-    df = pd.DataFrame()
-    df["article_link"] = a
-    df["title"] = b
-    df["price"] = c
-    return df
+            a.append(link["href"])
+            b.append(title.text.strip())
+            match: Optional[re.Match[str]] = re.search("[0-9.]+", price.text)
+            if match is not None:
+                c.append(match.group())
 
+        df = pd.DataFrame()
+        df["article_link"] = a
+        df["title"] = b
+        df["price"] = c
+        return df
 
-def main() -> None:
-    # scraping and etl
-    df1 = etl()
-    # df2 = etl('precious', 'gold')
-    # df3 = etl('precious', 'palladium')
-    # df4 = etl('base', 'copper')
+    # Define the function to export scraped data to csv
+    def export_csv(self, df: pd.DataFrame) -> None:
+        df.to_csv(self.aldi_data_path, index=False, encoding="utf_8_sig")
 
-    # concatenate then export
-    # dd = pd.concat([df1, df2, df3, df4])
-    dd = pd.concat([df1])
-    dd.to_csv("/data/aldi.csv", encoding="utf_8_sig")
+    # Define the function to run the entire process
+    def run(self) -> None:
+        df = self.etl()
+        self.export_csv(df)
 
 
 if __name__ == "__main__":
-    main()
+    scraper = Scraper()
+    scraper.run()
