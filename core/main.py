@@ -1,16 +1,22 @@
 """
-Created on Tue Mar 20 16:23:53 2018
+Modified on Tue Apr 18 22:20:53 2023
 """
 
 import configparser
+import json
 import os
 import re
+import sys
 import time
 from typing import Optional
+from urllib.parse import urljoin
 
 import pandas as pd
 from bs4 import BeautifulSoup
 from selenium import webdriver
+from selenium.common.exceptions import NoSuchElementException
+from selenium.webdriver.common.by import By
+from selenium.webdriver.common.keys import Keys
 
 
 # Main scraper class
@@ -38,7 +44,29 @@ class Scraper:
     def scrape(self) -> BeautifulSoup:
         driver = webdriver.Chrome()
         driver.get("https://www.aldi-nord.de/angebote.html#2023-04-11-10-obst-gemuese")
+
+        # Click intercepting element
+        try:
+            skip_sign_in = driver.find_element(
+                By.CLASS_NAME, "ffbULy"
+            )  # Skip sign-in pop up
+            skip_sign_in.click()
+        except NoSuchElementException:
+            print("Pop-up skipped")
+
         time.sleep(5)
+
+        # Scroll down the page to trigger JavaScript
+        body = driver.find_element(By.TAG_NAME, "body")
+        last_height = driver.execute_script("return window.pageYOffset;")
+        while True:
+            body.send_keys(Keys.PAGE_DOWN)
+            time.sleep(0.1)
+            new_height = driver.execute_script("return window.pageYOffset;")
+            if new_height == last_height:
+                break
+            last_height = new_height
+
         html_source = driver.page_source
         soup = BeautifulSoup(html_source, "html.parser")
         return soup
@@ -50,32 +78,52 @@ class Scraper:
 
         except Exception as e:
             print(e)
+            sys.exit()
 
+        time.sleep(5)
         p1 = page.find_all("div", class_="mod-article-tile")
 
-        a = []
-        b = []
-        c = []
+        base_url = "https://www.aldi-nord.de"
+        titles = []
+        prices = []
+        links = []
+        img_urls = []
+        descriptions = []
 
         for i in p1:
             title = i.find("span", class_="mod-article-tile__title")
             price = i.find("span", class_="price__wrapper")
             link = i.find("a")
 
-            a.append(link["href"])
-            b.append(title.text.strip())
+            img = i.find("img", class_="img-responsive")
+            description_json = i.find("script", type="application/ld+json")
+
+            titles.append(title.text.strip())
             match: Optional[re.Match[str]] = re.search("[0-9.]+", price.text)
             if match is not None:
-                c.append(match.group())
+                prices.append(match.group())
+            links.append(urljoin(base_url, link["href"]))
+            img_urls.append(
+                urljoin(base_url, img["src"]) if img and img.has_attr("src") else None
+            )
+            if description_json:
+                try:
+                    description_data = json.loads(description_json.string)
+                    descriptions.append(description_data.get("description", ""))
+                except json.JSONDecodeError:
+                    descriptions.append("")
 
         df = pd.DataFrame()
-        df["article_link"] = a
-        df["title"] = b
-        df["price"] = c
+        df["title"] = titles
+        df["price"] = prices
+        df["article_link"] = links
+        df["img_url"] = img_urls
+        df["description"] = descriptions
         return df
 
     # Define the function to export scraped data to csv
     def export_csv(self, df: pd.DataFrame) -> None:
+        print("Data from Aldi scraped successfully")
         df.to_csv(self.aldi_data_path, index=False, encoding="utf_8_sig")
 
     # Define the function to run the entire process

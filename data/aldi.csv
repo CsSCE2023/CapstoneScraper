@@ -1,10 +1,574 @@
-﻿,article_link,title,price
-0,/angebote/aktion-di-11-04/tafelaepfel-6121-1-0.article.html,Tafeläpfel,1.99
-1,/angebote/aktion-di-11-04/bananen-6151-3-3.article.html,Bananen,1.25
-2,/angebote/aktion-di-11-04/gurke-6170-3-0.article.html,Gurke,0.55
-3,/angebote/aktion-di-11-04/himbeeren-6186-1-0.article.html,Himbeeren,1.69
-4,/angebote/aktion-di-11-04/eisbergsalat-6276-0-0.article.html,Eisbergsalat,0.88
-5,/angebote/aktion-di-11-04/erdbeeren-6311-3-3.article.html,Erdbeeren,1.39
-6,/angebote/aktion-di-11-04/kulturheidelbeeren-6331-0-0.article.html,Kulturheidelbeeren,2.22
-7,/angebote/aktion-di-11-04/tafeltrauben-mix-9981-0-0.article.html,Tafeltrauben-Mix,1.75
-8,/angebote/aktion-di-11-04/bio-avocados-1022015-0-0.article.html,Bio-Avocados,2.22
+﻿title,price,article_link,img_url,description
+Datteln,0.79,https://www.aldi-nord.de/angebote/aktion-mo-17-04/datteln-1022582-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Getrocknet; Tunesien
+"
+Tafeläpfel,1.39,https://www.aldi-nord.de/angebote/aktion-mo-17-04/tafelaepfel-6110-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Sorte: Golden Delicious; Klasse 1; Deutschland, Italien, Österreich
+"
+Tafeltrauben hell,1.29,https://www.aldi-nord.de/angebote/aktion-mo-17-04/tafeltrauben-hell-6236-1-1.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Kernlos; Klasse 1; Chile, Indien, Namibia, Peru, Republik Südafrika
+"
+Tafelbirnen,2.22,https://www.aldi-nord.de/angebote/aktion-mo-17-04/tafelbirnen-6295-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Lose Ware; Sorte: Abate Fetel; Klasse 1; Chile, Republik Südafrika
+"
+Avocado,1.11,https://www.aldi-nord.de/angebote/aktion-mo-17-04/avocado-6279-2-2.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Klasse 1; Kolumbien, Peru, Republik Südafrika
+"
+Bio-Gurke,0.79,https://www.aldi-nord.de/angebote/aktion-mo-17-04/bio-gurke-7024-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Klasse 2; Spanien; kontrolliert ökologische Erzeugung
+"
+Zucchini,0.99,https://www.aldi-nord.de/angebote/aktion-mo-17-04/zucchini-6194-1-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Lose Ware; Klasse 1; Spanien
+"
+Mini-Romana-Salatherzen,1.11,https://www.aldi-nord.de/angebote/aktion-mo-17-04/mini-romana-salatherzen-6149-1-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Klasse 1; Spanien
+"
+Mini-Cherrystrauchtomaten,1.49,https://www.aldi-nord.de/angebote/aktion-mo-17-04/mini-cherrystrauchtomaten-1022332-1-1.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Klasse 1; Niederlande, Portugal, Spanien, Tunesien
+"
+Spargel,3.99,https://www.aldi-nord.de/angebote/aktion-mo-17-04/spargel-6261-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Klasse 1; Deutschland
+"
+Speisekartoffeln,1.79,https://www.aldi-nord.de/angebote/aktion-mo-17-04/speisekartoffeln-6113-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Mehligkochend; Deutschland
+"
+Bananen,1.29,https://www.aldi-nord.de/angebote/aktion-mo-17-04/bananen-6151-2-2.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Lose Ware
+"
+Eisbergsalat,1.15,https://www.aldi-nord.de/angebote/aktion-mo-17-04/eisbergsalat-6276-0-2.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Klasse 1; Spanien
+"
+Gurke,0.55,https://www.aldi-nord.de/angebote/aktion-mo-17-04/gurke-6170-5-1.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Klasse 1; Deutschland, Niederlande
+
+"
+Paprika-Mix,2.49,https://www.aldi-nord.de/angebote/aktion-mo-17-04/paprika-mix-6175-1-1.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Klasse 1; Marokko, Niederlande, Spanien
+"
+Rispentomaten,2.99,https://www.aldi-nord.de/angebote/aktion-mo-17-04/rispentomaten-6197-1-1.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Lose Ware; Klasse 1; Niederlande, Spanien
+"
+Bio-Hackfleisch,3.79,https://www.aldi-nord.de/angebote/aktion-mo-17-04/bio-hackfleisch-4698-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Frisch; vom Rind und Schwein; vielseitig verwendbar; kontrolliert ökologische Erzeugung
+ 
+Aus der Frischetruhe
+"
+Rinderfilet am Stück,28.04,https://www.aldi-nord.de/angebote/aktion-mo-17-04/rinderfilet-am-stueck-6939-1-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Aus Uruguay; ca. 800–1.500 g pro Packung; z. B. 850 g
+ 
+Aus der Tiefkühlung
+"
+Hähnchen-Innenfilets XXL,6.99,https://www.aldi-nord.de/angebote/aktion-mo-17-04/haehnchen-innenfilets-xxl-1003194-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Frisch; aus dem Brustfilet; zum Braten oder für den Grill
+ 
+Aus der Frischetruhe
+"
+Hähnchen Cordon bleu XXL,6.99,https://www.aldi-nord.de/angebote/aktion-mo-17-04/haehnchen-cordon-bleu-xxl-1025029-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Frisch; flüssig gewürzt; paniert; gefüllt mit Gouda-Schmelzkäse und Hähnchenoberkeulenschinken; zum Braten oder für den Ofen
+ 
+Aus der Frischetruhe
+"
+Hähnchen-Minutenschnitzel,3.79,https://www.aldi-nord.de/angebote/aktion-mo-17-04/haehnchen-minutenschnitzel-3700-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Frisch; aus dem Brustfilet; zum Braten oder für den Grill
+ 
+Aus der Frischetruhe
+"
+Schinkengeschnetzeltes,3.29,https://www.aldi-nord.de/angebote/aktion-mo-17-04/schinkengeschnetzeltes-1016482-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Aus dem Schweineschinken; verschiedene Sorten; zum Braten
+ 
+Aus der Frischetruhe
+"
+Streichzart XXL,2.49,https://www.aldi-nord.de/angebote/aktion-mo-17-04/streichzart-xxl-1006002-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Aus Butter und Rapsöl; verschiedene Sorten
+ 
+Aus der Kühlung
+"
+Tradition Feta,1.99,https://www.aldi-nord.de/angebote/aktion-mo-17-04/tradition-feta-1005900-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Mind. 2 Monate im Holzfass gereift
+ 
+Aus der Kühlung
+"
+Scheibenkäse,1.99,https://www.aldi-nord.de/angebote/aktion-mo-17-04/scheibenkaese-1020145-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","In der Sorte Original; kräftig und herzhaft
+ 
+Aus der Kühlung
+"
+Scheibenkäse,1.99,https://www.aldi-nord.de/angebote/aktion-mo-17-04/scheibenkaese-1020146-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","In der Sorte pikant und cremig
+ 
+Aus der Kühlung
+"
+Brotaufstrich,1.79,https://www.aldi-nord.de/angebote/aktion-mo-17-04/brotaufstrich-1001964-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Verschiedene Sorten; z. T. MSC-zertifiziert
+ 
+Aus der Kühlung
+"
+Schinkenröllchen in Aspik,1.29,https://www.aldi-nord.de/angebote/aktion-mo-17-04/schinkenroellchen-in-aspik-1002483-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Mit cremiger Füllung; verschiedene Sorten
+ 
+Aus der Kühlung
+"
+Gemüsepfanne,1.79,https://www.aldi-nord.de/angebote/aktion-mo-17-04/gemu_sepfanne-1020612-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Verschiedene Sorten; vegetarisch bzw. z.T. vegan
+ 
+Aus der Tiefkühlung
+"
+Rösti-Fries,1.99,https://www.aldi-nord.de/angebote/aktion-mo-17-04/roesti-fries-1020720-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Gewürzte Kartoffel-Stäbchen; aus frisch geraspelten Qualitätskartoffeln; vorgebacken
+ 
+Aus der Tiefkühlung
+"
+Marinierte Fischfilets,2.99,https://www.aldi-nord.de/angebote/aktion-mo-17-04/marinierte-fischfilets-1024484-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","100 % Alaska-Seelachs-Filet; in der Sorte mit Tomate und Spinat; MSC-zertifiziert
+ 
+Aus der Tiefkühlung
+"
+Marinierte Fischfilets,2.99,https://www.aldi-nord.de/angebote/aktion-mo-17-04/marinierte-fischfilets-1024485-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","100 % Alaska-Seelachs-Filet; in der Sorte mit Tomate und Spinat; MSC-zertifiziert
+ 
+Aus der Tiefkühlung
+"
+Frische Landmilch,1.29,https://www.aldi-nord.de/angebote/aktion-mo-17-04/frische-landmilch-1000245-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","3,8 % Fett
+ 
+Aus der Kühlung
+"
+Skyr-Alternative,1.49,https://www.aldi-nord.de/angebote/aktion-mo-17-04/skyr-alternative-1006317-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Von Natur aus laktosefrei; reich an Protein; in der Sorte ohne Zucker
+ 
+Aus der Kühlung
+"
+Soja-Mango,1.49,https://www.aldi-nord.de/angebote/aktion-mo-17-04/soja-mango-1006662-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Rein pflanzlich; von Natur aus laktosefrei
+ 
+Aus der Kühlung
+"
+Quark,1.49,https://www.aldi-nord.de/angebote/aktion-mo-17-04/quark-1001868-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Verschiedene Sorten
+ 
+Aus der Kühlung
+"
+Sahne-Joghurt,0.49,https://www.aldi-nord.de/angebote/aktion-mo-17-04/sahne-joghurt-5599-4-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Verschiedene Sorten
+ 
+Aus der Kühlung
+"
+Milchreis,0.39,https://www.aldi-nord.de/angebote/aktion-mo-17-04/milchreis-4475-2-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Verschiedene Sorten
+ 
+Aus der Kühlung
+"
+Milchreis,0.39,https://www.aldi-nord.de/angebote/aktion-mo-17-04/milchreis-1025516-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Verschiedene Sorten
+ 
+Aus der Kühlung
+"
+Cafeteria fein & sahnig,3.49,https://www.aldi-nord.de/angebote/aktion-mo-17-04/cafeteria-fein-sahnig-1012687-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Verschiedene Sorten und Gewichte
+ 
+Aus der Tiefkühlung
+"
+Sorbet,1.99,https://www.aldi-nord.de/angebote/aktion-mo-17-04/sorbet-5307-1-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Verschiedene Sorten
+ 
+Aus der Tiefkühlung
+"
+Ice Machines Minis,2.29,https://www.aldi-nord.de/angebote/aktion-mo-17-04/ice-machines-minis-1026021-1-1.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Packung enthält 6 verschiedene Sorten Wassereis; 18 Stück 
+ 
+Aus der Tiefkühlung
+"
+Original,1.29,https://www.aldi-nord.de/angebote/aktion-mo-17-04/original-1021583-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Halbfettmargarine
+"
+Instantsuppe,0.89,https://www.aldi-nord.de/angebote/aktion-mo-17-04/instantsuppe-2149-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Verschiedene Sorten und Gewichte; je 5 Beutel
+"
+Landjäger,2.39,https://www.aldi-nord.de/angebote/aktion-mo-17-04/landjaeger-1332-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Geräuchert; 4 Stück
+"
+50 % weniger Zuckerᴬ,2.19,https://www.aldi-nord.de/angebote/aktion-mo-17-04/50-weniger-zucker-1017874-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Fruchtaufstrich; verschiedene Sorten; 10 % mehr Inhalt
+"
+Honig,3.79,https://www.aldi-nord.de/angebote/aktion-mo-17-04/honig-7688-2-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Verschiedene Sorten
+"
+Hafer-Heidi,0.99,https://www.aldi-nord.de/angebote/aktion-mo-17-04/hafer-heidi-1023428-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Haferbrot mit Leinsamen
+"
+Butterkekse,6.99,https://www.aldi-nord.de/angebote/aktion-mo-17-04/butterkekse-1005088-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Knusprige Kekse; in Metalldose in VW-Bus-Form; verschiedene Dessinvarianten
+"
+Erdnussberge,1.99,https://www.aldi-nord.de/angebote/aktion-mo-17-04/erdnussberge-4031-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Verschiedene Sorten
+"
+Minis,1.88,https://www.aldi-nord.de/angebote/aktion-mo-17-04/minis-4862-2-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Verschiedene Sorten
+ 
+"
+nimm2 Lachgummi Veggie,0.89,https://www.aldi-nord.de/angebote/aktion-mo-17-04/nimm2-lachgummi-veggie-1006867-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Verschiedene Sorten und Gewichte; vegetarisch bzw. z.T. vegan
+"
+nimm2 Lachgummi Softies,0.89,https://www.aldi-nord.de/angebote/aktion-mo-17-04/nimm2-lachgummi-softies-2464-1-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Verschiedene Sorten
+"
+nimm2 Lachgummi,0.89,https://www.aldi-nord.de/angebote/aktion-mo-17-04/nimm2-lachgummi-3818-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Verschiedene Sorten und Gewichte
+"
+Schokoladentafel,0.89,https://www.aldi-nord.de/angebote/aktion-mo-17-04/schokoladentafel-1011110-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Verschiedene Sorten und Gewichte
+"
+Maltesers,2.49,https://www.aldi-nord.de/angebote/aktion-mo-17-04/maltesers-1023815-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Milchschokolade; mit Malzfüllung
+"
+Fruchtsaft,1.99,https://www.aldi-nord.de/angebote/aktion-mo-17-04/fruchtsaft-1005306-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","100 % Saft aus Konzentrat; verschiedene Sorten
+ 
+"
+Fliederbeersaft,1.99,https://www.aldi-nord.de/angebote/aktion-mo-17-04/fliederbeersaft-261-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","100 % Holunderbeersaft aus Holunderbeersaftkonzentrat
+"
+Gran Reserva Cariñena DOP 2017,3.49,https://www.aldi-nord.de/angebote/aktion-mo-17-04/gran-reserva-carinena-dop-2017-1150-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Trockener spanischer Rotwein; in Eichenfässern gelagert
+"
+Edel-Linon-Bettwäsche,14.99,https://www.aldi-nord.de/angebote/aktion-mo-17-04/edel-linon-bettwaesche-5705-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Reine Baumwolle; Bettbezug, B × L: ca. 135 × 200 cm, und Kissenbezug, B × L: ca. 80 × 80 cm; verschiedene Dessin-/Farbvarianten
+"
+Edel-Linon-Kissenbezüge,2.99,https://www.aldi-nord.de/angebote/aktion-mo-17-04/edel-linon-kissenbezuege-1000342-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Reine Baumwolle; B × L: je ca. 40 × 80 cm; verschiedene Farbvarianten
+"
+Edel-Linon-Spannbetttuch,8.99,https://www.aldi-nord.de/angebote/aktion-mo-17-04/edel-linon-spannbetttuch-5608-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Reine Baumwolle; mit Rundumgummizug; B × L: ca. 90–100 × 200 cm; verschiedene Farbvarianten
+"
+Spannbetttuch,7.99,https://www.aldi-nord.de/angebote/aktion-mo-17-04/spannbetttuch-1014244-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Reine Baumwolle; mit Rundumgummizug; B × L: ca. 90–100 × 200 cm; verschiedene Farbvarianten
+"
+Bettwäsche,12.99,https://www.aldi-nord.de/angebote/aktion-mo-17-04/bettwaesche-1015748-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Reine Baumwolle; Bettbezug, B × L: ca. 135 × 200 cm, Kopfkissenbezug, B × L: ca. 80 × 80 cm; verschiedene Motive
+"
+Massivholzkommode Skandi,79.99,https://www.aldi-nord.de/angebote/aktion-mo-17-04/massivholzkommode-skandi-1014393-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Massives Kiefernholz; mit 4 Schubkästen und Griffausfräsungen; B × H × T: ca. 40 × 90,5 × 40 cm
+"
+Plissee-Rollo für Fenster,9.99,https://www.aldi-nord.de/angebote/aktion-mo-17-04/plissee-rollo-fuer-fenster-4883-1-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Für Drehkippfenster; lichtdurchlässig, aber blickdicht; Klemmmontage, Klemmbereich: ca. 5–45 mm; inkl. Montagezubehör; verschiedene Größen und Farbvarianten
+"
+Plissee-Rollo für Türen,12.99,https://www.aldi-nord.de/angebote/aktion-mo-17-04/plissee-rollo-fuer-tueren-8870-2-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Für Drehkipptüren; lichtdurchlässig, aber blickdicht; Klemmmontage, Klemmbereich: ca. 5–45 mm; inkl. Montagezubehör; B × H: ca. 80 × 200 cm; verschiedene Farbvarianten
+"
+Kleid,9.99,https://www.aldi-nord.de/angebote/aktion-mo-17-04/kleid-1007685-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","50 % Baumwolle, 50 % Modal (TENCEL™); verschiedene Farbvarianten
+ 
+S–L
+ 
+Weitere Infos rund um das Produkt und den Herstellungsprozess findest du hier.
+"
+Hose,9.99,https://www.aldi-nord.de/angebote/aktion-mo-17-04/hose-9740-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","98 % Baumwolle, 2 % Elasthan; verschiedene Farbvarianten
+ 
+36–44
+ 
+Weitere Infos rund um das Produkt und den Herstellungsprozess findest du hier.
+"
+Pyjama,6.99,https://www.aldi-nord.de/angebote/aktion-mo-17-04/pyjama-2723-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Reine Baumwolle, grau-melange 95 % Baumwolle, 5 % Viskose; verschiedene Dessin- und Modellvarianten
+ 
+S–L
+ 
+Weitere Infos rund um das Produkt und den Herstellungsprozess findest du hier.
+"
+Canvas-Sneaker,9.99,https://www.aldi-nord.de/angebote/aktion-mo-17-04/canvas-sneaker-1007681-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Obermaterial Canvas-Textil und Gummi; Innenausstattung Textil; Gummi-Laufsohle
+ 
+Je nach Modell 37–40, 38–44, 41–45
+"
+Trekkingsandalen,19.99,https://www.aldi-nord.de/angebote/aktion-mo-17-04/trekkingsandalen-1003262-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Obermaterial Leder, kombiniert mit Synthetik; gepolstertes Textilfutter; lederbezogene Decksohle; TPR-Laufsohle; verschiedene Farbvarianten
+ 
+ 37–41
+"
+Sweatjacke,12.99,https://www.aldi-nord.de/angebote/aktion-mo-17-04/sweatjacke-1000464-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Verschiedene Materialzusammensetzungen und Farbvarianten
+ 
+M–XXL
+ 
+Weitere Infos rund um das Produkt und den Herstellungsprozess findest du hier.
+"
+Cargoshorts,12.99,https://www.aldi-nord.de/angebote/aktion-mo-17-04/cargoshorts-1003227-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Reine Baumwolle; verschiedene Farbvarianten
+ 
+48–56
+ 
+Weitere Infos rund um das Produkt und den Herstellungsprozess findest du hier.
+"
+Pyjama,8.99,https://www.aldi-nord.de/angebote/aktion-mo-17-04/pyjama-5784-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Verschiedene Materialzusammensetzungen und Farbvarianten
+ 
+M–XXL
+ 
+Weitere Infos rund um das Produkt und den Herstellungsprozess findest du hier.
+"
+Retropants,8.99,https://www.aldi-nord.de/angebote/aktion-mo-17-04/retropants-1003231-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","95 % Baumwolle, 5 % Elasthan (LYCRA®); verschiedene Farbvarianten
+ 
+M–XXL
+ 
+Weitere Infos rund um das Produkt und den Herstellungsprozess findest du hier.
+"
+Trekkingsandalen,19.99,https://www.aldi-nord.de/angebote/aktion-mo-17-04/trekkingsandalen-1003263-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Obermaterial Leder, kombiniert mit Synthetik; gepolstertes Textilfutter; lederbezogene Decksohle; TPR-Laufsohle; verschiedene Farbvarianten
+ 
+41–45
+"
+Jogginganzug,14.99,https://www.aldi-nord.de/angebote/aktion-mo-17-04/jogginganzug-1014089-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Reine Baumwolle; verschiedene Farbvarianten
+ 
+98/104–122/128
+ 
+Weitere Infos rund um das Produkt und den Herstellungsprozess findest du hier.
+"
+Jogginganzug,14.99,https://www.aldi-nord.de/angebote/aktion-mo-17-04/jogginganzug-1014088-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Reine Baumwolle; verschiedene Farbvarianten
+ 
+98/104–122/128
+ 
+Weitere Infos rund um das Produkt und den Herstellungsprozess findest du hier.
+"
+T-Shirt,2.99,https://www.aldi-nord.de/angebote/aktion-mo-17-04/t-shirt-8551-3-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Reine Baumwolle; verschiedene Modelle
+ 
+98/104–134/140
+"
+T-Shirt,2.99,https://www.aldi-nord.de/angebote/aktion-mo-17-04/t-shirt-8751-2-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Reine Baumwolle; verschiedene Modelle
+ 
+98/104–134/140
+"
+Sneaker,12.99,https://www.aldi-nord.de/angebote/aktion-mo-17-04/sneaker-1003242-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Obermaterial Synthetik und Textil; textile Innenausstattung; TPR-Laufsohle; verschiedene Dessinvarianten
+ 
+23–29
+"
+Socken,2.49,https://www.aldi-nord.de/angebote/aktion-mo-17-04/socken-1000466-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Verschiedene Materialzusammensetzungen und Dessinvarianten
+ 
+23/26–35/38
+"
+Trekkingsandalen,9.99,https://www.aldi-nord.de/angebote/aktion-mo-17-04/trekkingsandalen-1007680-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Obermaterial Textil; textiles Futter; chromfrei gegerbte Lederdecksohle; TPR-Laufsohle; verschiedene Farbvarianten
+ 
+30–36
+"
+Trekkingsandalen,9.99,https://www.aldi-nord.de/angebote/aktion-mo-17-04/trekkingsandalen-1007679-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Obermaterial Synthetik, kombiniert mit Textil; textiles Futter; chromfrei gegerbte Lederdecksohle; TPR-Laufsohle; verschiedene Farbvarianten
+ 
+23–29
+"
+Pantoletten,8.99,https://www.aldi-nord.de/angebote/aktion-mo-17-04/pantoletten-1007665-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Obermaterial Synthetik; Textil-Futter; leichte EVA-Laufsohle
+ 
+23–29
+"
+Schlafanzug,4.99,https://www.aldi-nord.de/angebote/aktion-mo-17-04/schlafanzug-1001048-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Reine Baumwolle, grau-melange 94 % Baumwolle, 6 % Viskose; verschiedene Dessinvarianten
+ 
+98/104–122/128
+"
+Strampler / Bodys,8.99,https://www.aldi-nord.de/angebote/aktion-mo-17-04/strampler-bodys-1003243-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Reine Baumwolle; verschiedene Farbvarianten
+ 
+62/68–98/104
+ 
+Weitere Infos rund um das Produkt und den Herstellungsprozess findest du hier.
+"
+Pampasgras,1.99,https://www.aldi-nord.de/angebote/aktion-mo-17-04/pampasgras-1014046-1-1.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Im 12-cm-Kulturtopf; in Faltschachtel; Pflanze ca. 35 cm hoch; winterhart; verschiedene Farben
+"
+Obstbaum,3.99,https://www.aldi-nord.de/angebote/aktion-mo-17-04/obstbaum-1007781-1-1.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Wurzelballiert mit Torf; Ø × H: ca. 8 × 85–93 cm; im Folienbeutel; verpackt in Faltschachtel; winterhart; verschiedene Sorten
+"
+Tischtennisplatte Outdoor S 1-43e,369.00,https://www.aldi-onlineshop.de/p/1004087,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+"Klettergerüst-Erweiterung Upgrade Kit, 188-teilig",149.00,https://www.aldi-onlineshop.de/p/1004209,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+Gasgrill Boston Black Pro 3 SIKR Turbo,439.00,https://www.aldi-onlineshop.de/p/1005079/,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+Campingkocher Dalgety 2 Z,74.99,https://www.aldi-onlineshop.de/p/1009592,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+"Camping-Tisch Monte Carlo, 115 x 70 cm",59.99,https://www.aldi-onlineshop.de/p/1018227,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+Skateboard,49.99,https://www.aldi-onlineshop.de/p/1023268/,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+"Longboard, Holzoptik",49.99,https://www.aldi-onlineshop.de/p/1023269,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+Druckluft-Schlagschrauber-Set,52.99,https://www.aldi-onlineshop.de/p/1024723,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+Druckluft-Exzenterschleifer,39.99,https://www.aldi-onlineshop.de/p/1024724,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+Power Station LX PS600 + Solar Panel LX SPP10,599.00,https://www.aldi-onlineshop.de/p/1024841,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+Klettergerüst Youngster,119.00,https://www.aldi-onlineshop.de/p/1024856,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+Klettergerüst Genius,229.00,https://www.aldi-onlineshop.de/p/1024857,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+Drachenturm Tabaluga mit Wellenrutsche,849.00,https://www.aldi-onlineshop.de/p/1025531,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+Trekkingzelt Apus 2,39.99,https://www.aldi-onlineshop.de/p/1025652,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+"E-Bike Trekking 28“, Herren",999.00,https://www.aldi-onlineshop.de/p/1026022,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+Erdbeeren,1.99,https://www.aldi-nord.de/angebote/aktion-do-20-04/erdbeeren-1014072-1-1.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Klasse 1; Spanien
+"
+Zitronen,0.99,https://www.aldi-nord.de/angebote/aktion-do-20-04/zitronen-1016625-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Klasse 1; Spanien
+"
+Blumenkohl,1.69,https://www.aldi-nord.de/angebote/aktion-do-20-04/blumenkohl-6237-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Klasse 1; Frankreich, Spanien
+"
+Bio-Paprika,1.99,https://www.aldi-nord.de/angebote/aktion-do-20-04/bio-paprika-6364-0-1.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Klasse 2; Spanien; kontrolliert ökologische Erzeugung
+"
+Tafelspitz,7.49,https://www.aldi-nord.de/angebote/aktion-do-20-04/tafelspitz-5721-3-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Frisch; vom Rind; zum Kochen und Schmoren
+ 
+Aus der Frischetruhe
+"
+Minutensteaks XXL,5.49,https://www.aldi-nord.de/angebote/aktion-do-20-04/minutensteaks-xxl-1016314-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Frisch; aus dem Schweinerücken; zum Braten oder für den Grill
+ 
+Aus der Frischetruhe
+"
+Halbe Pute,6.99,https://www.aldi-nord.de/angebote/aktion-do-20-04/halbe-pute-1019605-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Frisch; HKL A; geteilt; Brustfilet-Teilstück, Oberschenkel, Unterschenkel, Flügel; für den Ofen; z. B. 2.500 g = 17.48
+ 
+Aus der Frischetruhe
+"
+Pizza-Fleischkäse,4.99,https://www.aldi-nord.de/angebote/aktion-do-20-04/pizza-fleischkaese-1020992-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Vom Schwein; küchenfertig; mit Emmentaler, Salami, Kochschinken und Paprika; in praktischer Ofenschale; für den Ofen
+ 
+Aus der Frischetruhe
+"
+Bio-Lachsfiletportionen XXL,12.99,https://www.aldi-nord.de/angebote/aktion-do-20-04/bio-lachsfiletportionen-xxl-1017731-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Frisch; mit Haut; praktisch grätenfrei; zum Braten oder für den Grill; kontrolliert ökologische Erzeugung
+ 
+Aus der Frischetruhe
+"
+Steinofen-Olivenstick,0.69,https://www.aldi-nord.de/angebote/aktion-do-20-04/steinofen-olivenstick-1019262-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Weizenkleingebäck; mit grünen Oliven
+ 
+Frisch gebacken
+"
+Quäse,2.29,https://www.aldi-nord.de/angebote/aktion-do-20-04/quaese-5100-4-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Sauermilchkäse; verschiedene Sorten
+ 
+Aus der Kühlung
+"
+Camembert Original,2.49,https://www.aldi-nord.de/angebote/aktion-do-20-04/camembert-original-7150-2-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Typisch vollmundiger Geschmack
+ 
+Aus der Kühlung
+"
+Camembert L’Aromatique,2.49,https://www.aldi-nord.de/angebote/aktion-do-20-04/camembert-l_aromatique-8755-4-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Fein-würzig; mit cremiger Konsistenz
+ 
+Aus der Kühlung
+"
+Zaziki / Sour Cream,0.79,https://www.aldi-nord.de/angebote/aktion-do-20-04/zaziki-sour-cream-1024634-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Zaziki, mit frischem Knoblauch und knackigen Gurken, bzw. Sour Cream, mit frischen Kräutern
+ 
+Aus der Kühlung
+"
+Tapas-Garnelen,1.79,https://www.aldi-nord.de/angebote/aktion-do-20-04/tapas-garnelen-1022033-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Nach spanischer Art; mariniert; verschiedene Sorten; ASC-zertifiziert
+ 
+Aus der Kühlung
+"
+Holzfäller-Bratwurst-Mix,4.49,https://www.aldi-nord.de/angebote/aktion-do-20-04/holzfaeller-bratwurst-mix-1006823-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Aromatische Würzbratwürste in 3 verschiedenen Geschmacksrichtungen
+ 
+Aus der Kühlung
+"
+Actimel XXL,3.88,https://www.aldi-nord.de/angebote/aktion-do-20-04/actimel-xxl-1007785-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","In der Sorte Erdbeere
+ 
+Aus der Kühlung
+"
+Fruchtjoghurt,0.99,https://www.aldi-nord.de/angebote/aktion-do-20-04/fruchtjoghurt-1005436-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Verschiedene Sorten
+ 
+Aus der Kühlung
+"
+Thunfisch-Salat,1.89,https://www.aldi-nord.de/angebote/aktion-do-20-04/thunfisch-salat-1005885-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Verschiedene Sorten; MSC-zertifiziert
+ 
+"
+Baked Bites / Crisp,1.59,https://www.aldi-nord.de/angebote/aktion-do-20-04/baked-bites-crisp-1004785-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Verschiedene Sorten
+"
+Kessel-Chips,1.49,https://www.aldi-nord.de/angebote/aktion-do-20-04/kessel-chips-222-1-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Verschiedene Sorten
+ 
+"
+Nature Bakes,1.99,https://www.aldi-nord.de/angebote/aktion-do-20-04/nature-bakes-1005303-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Verschiedene Sorten
+ 
+"
+Erdnusskerne,0.89,https://www.aldi-nord.de/angebote/aktion-do-20-04/erdnusskerne-3600-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Geröstet & gesalzen
+ 
+"
+Studentenfutter Classic,2.99,https://www.aldi-nord.de/angebote/aktion-do-20-04/studentenfutter-classic-1009961-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Nuss-Frucht-Mischung
+"
+merci Feine Herzen,2.99,https://www.aldi-nord.de/angebote/aktion-do-20-04/merci-feine-herzen-1000875-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Edel-Vollmilchschokolade mit Milch-Praliné-Füllung
+"
+Haferkraft,1.29,https://www.aldi-nord.de/angebote/aktion-do-20-04/haferkraft-8221-1-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Verschiedene Sorten
+"
+Orangina,0.99,https://www.aldi-nord.de/angebote/aktion-do-20-04/orangina-1019312-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Orangenfruchtsaftgetränk; mit 12 % Mehrfruchtsaft aus Fruchtsaftkonzentraten
+"
+Fanta / Sprite / Mezzo Mix,1.11,https://www.aldi-nord.de/angebote/aktion-do-20-04/fanta-sprite-mezzo-mix-1024877-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Erfrischungsgetränk; z. T. koffeinhaltig
+"
+Coca-Cola,1.11,https://www.aldi-nord.de/angebote/aktion-do-20-04/coca-cola-1000302-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Erfrischungsgetränk; koffeinhaltig
+"
+Añejo 3 Años,11.99,https://www.aldi-nord.de/angebote/aktion-do-20-04/anejo-3-anos-1001315-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Kubanischer Rum; mindestens 3 Jahre lang gereift; 40 % Vol.
+"
+Especial,11.99,https://www.aldi-nord.de/angebote/aktion-do-20-04/especial-1009246-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Kubanischer Rum; leichte Süße und Vanillenoten ergänzen sich mit Anklängen von Zimt, Tabak, würziger Orange und trockenem Eichenholz; 40 % Vol.
+"
+Añejo 7 Años,19.99,https://www.aldi-nord.de/angebote/aktion-do-20-04/anejo-7-anos-1017899-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Kubanischer Rum; mindestens 7 Jahre lang gereift; 40 % Vol.
+"
+Zahnbürsten Schwingkopf,2.99,https://www.aldi-nord.de/angebote/aktion-do-20-04/zahnbuersten-schwingkopf-1001020-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Vorteilspack: 2 + 1 gratis
+ 
+"
+Zahncreme XXL,3.99,https://www.aldi-nord.de/angebote/aktion-do-20-04/zahncreme-xxl-1005752-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Zahncreme; Original, 3 Stück, je 125 ml, gratis dazu: Odol-med Extreme Clean, 75 ml
+"
+Shampoo / Spülung,2.99,https://www.aldi-nord.de/angebote/aktion-do-20-04/shampoo-spu_lung-834-1-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Verschiedene Sorten
+ 
+"
+Burrata,1.99,https://www.aldi-nord.de/angebote/aktion-do-20-04/burrata-1000246-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Handgemachte Spezialität aus Apulien; Abtropfgewicht (ATG) = 125 g
+ 
+Aus der Kühlung
+"
+Geriebener Hartkäse,2.99,https://www.aldi-nord.de/angebote/aktion-do-20-04/geriebener-hartkaese-1675-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Nach italienischer Art; getrocknet; mind. 32 % Fett  i. Tr.
+"
+Pecorino,2.99,https://www.aldi-nord.de/angebote/aktion-do-20-04/pecorino-1024064-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Italienische/sardische Käsespezialität; verschiedene Sorten
+ 
+Aus der Kühlung
+"
+Prosciutto Cotto XXL,2.49,https://www.aldi-nord.de/angebote/aktion-do-20-04/prosciutto-cotto-xxl-1013673-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Hinterkochschinken nach original italienischem Rezept; hergestellt in Deutschland
+ 
+Aus der Kühlung
+"
+Holzofen-Pizza,2.79,https://www.aldi-nord.de/angebote/aktion-do-20-04/holzofen-pizza-5108-1-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Nach italienischer Rezeptur; verschiedene Sorten und Gewichte
+ 
+Aus der Tiefkühlung
+"
+Creme mit Aceto Balsamico di Modena I.G.P.,1.49,https://www.aldi-nord.de/angebote/aktion-do-20-04/creme-mit-aceto-balsamico-di-modena-i-g-p-2161-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Aus Italien bzw. hergestellt in Italien; verschiedene Sorten
+"
+Steinofen-Dinkel-Brot XXL,1.79,https://www.aldi-nord.de/angebote/aktion-do-20-04/steinofen-dinkel-brot-xxl-1024103-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","100 % Dinkelmehl; mit feiner Kräuterfüllung; vegan
+ 
+Aus der Kühlung
+"
+Italienisches Dessert,2.99,https://www.aldi-nord.de/angebote/aktion-do-20-04/italienisches-dessert-2672-1-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Hergestellt in Italien; enhält Alkohol; verschiedene Sorten und Gewichte
+ 
+Aus der Kühlung
+"
+﻿Pasta Collezione,1.79,https://www.aldi-nord.de/angebote/aktion-do-20-04/_pasta-collezione-1023082-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","In der Sorte Linguine; hergestellt in Italien
+"
+Pasta Collezione,1.79,https://www.aldi-nord.de/angebote/aktion-do-20-04/pasta-collezione-1023083-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","In der Sorte Casarecce
+"
+Pasta Collezione,1.79,https://www.aldi-nord.de/angebote/aktion-do-20-04/pasta-collezione-1023084-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","In der Sorte Lasagne; hergestellt in Italien
+"
+Pasta-Sauce,1.69,https://www.aldi-nord.de/angebote/aktion-do-20-04/pasta-sauce-2183-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Hergestellt in Deutschland; verschiedene Sorten
+"
+Antipasti di Mare,3.99,https://www.aldi-nord.de/angebote/aktion-do-20-04/antipasti-di-mare-2966-2-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Hergestellt in Italien; verschiedene Sorten und Abtropfgewichte
+"
+Bruschetta-Brot,1.99,https://www.aldi-nord.de/angebote/aktion-do-20-04/bruschetta-brot-1002127-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Hergestellt in Italien; Weizenbrotspezialität
+"
+"Passierte Tomaten, gewürzt",0.89,https://www.aldi-nord.de/angebote/aktion-do-20-04/passierte-tomaten-gewuerzt-1021347-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Ideal für Pizza
+"
+Gewürz,1.99,https://www.aldi-nord.de/angebote/aktion-do-20-04/gewuerz-1008575-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Nach italienischer Art; verschiedene Sorten und Gewichte
+"
+Italienische Salamispezialität,2.59,https://www.aldi-nord.de/angebote/aktion-do-20-04/italienische-salamispezialitaet-1022609-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Hergestellt in Italien; verschiedene Sorten
+"
+Südtiroler Speck g. g. A.,5.28,https://www.aldi-nord.de/angebote/aktion-do-20-04/suedtiroler-speck-g-g-a-1014825-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Hergestellt in Italien; Hinterschinken; roh; geräuchert und luftgetrocknet
+"
+Suppe,1.19,https://www.aldi-nord.de/angebote/aktion-do-20-04/suppe-1000973-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Nach italienischer Art; verschiedene Sorten
+"
+Kaffee-Pads,1.99,https://www.aldi-nord.de/angebote/aktion-do-20-04/kaffee-pads-1021394-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","In der Sorte Caffè Crema Classico; 18 Pads
+"
+Kaffee-Pads,1.99,https://www.aldi-nord.de/angebote/aktion-do-20-04/kaffee-pads-1021395-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","In der Sorte Crema e Aroma; 18 Pads
+"
+Cantuccini,1.49,https://www.aldi-nord.de/angebote/aktion-do-20-04/cantuccini-3546-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Hergestellt in Italien; verschiedene Sorten
+"
+Feines Gebäck,1.99,https://www.aldi-nord.de/angebote/aktion-do-20-04/feines-gebaeck-6412-1-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Nach italienischer Art; hergestellt in Deutschland; verschiedene Sorten
+"
+Italienische Kuchenrolle,1.99,https://www.aldi-nord.de/angebote/aktion-do-20-04/italienische-kuchenrolle-1007955-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Hergestellt in Italien; verschiedene Sorten
+"
+Torta Tiramisù,1.99,https://www.aldi-nord.de/angebote/aktion-do-20-04/torta-tiramisu-1010798-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Hergestellt in Italien; Dessert; enthält Alkohol
+"
+Crema di Limoncello,5.49,https://www.aldi-nord.de/angebote/aktion-do-20-04/crema-di-limoncello-965-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Sahnelikör; fruchtig-frischer Geschmack von Zitronen bzw. Limetten; hergestellt in Deutschland; 16 % Vol.
+"
+Limoncello,5.49,https://www.aldi-nord.de/angebote/aktion-do-20-04/limoncello-5309-2-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Fruchtiger Zitronenlikör aus Italien; 30% Vol;
+"
+Bardolino DOC Chiaretto 2022,2.99,https://www.aldi-nord.de/angebote/aktion-do-20-04/bardolino-doc-chiaretto-2022-1142-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Trockener italienischer Roséwein; nach der Weinbereitung lässt man den Most kurz auf den Schalen mazerieren, wodurch Aromastoffe freigesetzt werden
+"
+Asti D. O. C. G.,4.49,https://www.aldi-nord.de/angebote/aktion-do-20-04/asti-d-o-c-g-1183-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Italienischer Schaumwein
+"
+Campari,10.99,https://www.aldi-nord.de/angebote/aktion-do-20-04/campari-1000688-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Erfrischend, herb und spritzig; die zeitlose italienische Aperitif-Ikone; 25 % Vol.
+"
+Aperitivo,9.99,https://www.aldi-nord.de/angebote/aktion-do-20-04/aperitivo-5830-4-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Fruchtig-herber Aperitif aus Italien; 11 % Vol.
+"
+Alu-Glas-Ausziehtisch,169.00,https://www.aldi-nord.de/angebote/aktion-do-20-04/alu-glas-ausziehtisch-1008895-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Glasplatten gehärtetes Einscheibensicherheitsglas (Ornamentglas), Rahmen doppelwandiges, pulverbeschichtetes Aluminiumrohr; pflegeleicht, witterungsbeständig; B × H × T: ca. 160 × 75 × 89,5 cm, ausziehbar auf ca. 220 cm
+"
+Alu-Klappsessel,59.99,https://www.aldi-nord.de/angebote/aktion-do-20-04/alu-klappsessel-7656-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Gestell und Rahmen Aluminium; Sitz- und Rückenfläche strapazierfähiges textiles Gewebe, pflegeleicht und wetterfest; 7-fach verstellbare Rückenlehne; B × H × T: ca. 61 × 110 × 67 cm, aufgestellt; ohne Auflage
+"
+Komfort-Auflage für Alu-Klappsessel,17.99,https://www.aldi-nord.de/angebote/aktion-do-20-04/komfort-auflage-fuer-alu-klappsessel-2378-2-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Bezug 100 % Polyester; Wendekissen; verstellbares Halteband im Rückenteil; Bezug abnehmbar und waschbar bis 30 °C; B × L × H: ca. 50 × 120 × 6,5 cm, inkl. Stehsaum; verschiedene Farb- und Dessinvarianten
+"
+Auflage für Alu-Klappsessel,9.99,https://www.aldi-nord.de/angebote/aktion-do-20-04/auflage-fuer-alu-klappsessel-7655-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","52 % Polyester, 48 % Baumwolle; verstellbares Halteband im Rückenteil; B × L × H: ca. 48,5 × 116,5 × 5,5 cm, inkl. Stehsaum; verschiedene Farbvarianten
+"
+Alu-Relaxsessel,69.99,https://www.aldi-nord.de/angebote/aktion-do-20-04/alu-relaxsessel-6356-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Sitz- und Rückenfläche textiles Gewebe; zusammenklappbar; 7-fach verstellbare Rückenlehne; bequemer Sitzkomfort; Fußstütze passt sich Rückenneigung an; B × H × T: ca. 61 × 110 × 76 cm, aufgestellt; ohne Auflage
+"
+Auflage für Alu-Sonnenliege,19.99,https://www.aldi-nord.de/angebote/aktion-do-20-04/auflage-fuer-alu-sonnenliege-7659-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","52 % Polyester, 48 % Baumwolle; verstellbares Halteband im Rückenteil; B × L × H: ca. 55 × 197 × 5,5 cm, inkl. Stehsaum; verschiedene Farbvarianten
+"
+Auflage für Relax-Sessel,14.99,https://www.aldi-nord.de/angebote/aktion-do-20-04/auflage-fuer-relax-sessel-455-1-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","52 % Polyester, 48 % Baumwolle; verstellbares Halteband im Rückenteil; B × L × H: ca. 48 × 160 × 5,5 cm, inkl. Stehsaum; verschiedene Farbvarianten
+"
+Alu-Sonnenliege,119.00,https://www.aldi-nord.de/angebote/aktion-do-20-04/alu-sonnenliege-5783-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Sitz- und Rückenfläche strapazierfähiges textiles Gewebe; 5-fach verstellbare, vollständig klappbare Rückenlehne; mit Rollen; B × L : ca. 77,5 × 194 cm; Belastung: max. 150 kg
+"
+Stapelstuhl aus Stahl,19.99,https://www.aldi-nord.de/angebote/aktion-do-20-04/stapelstuhl-aus-stahl-1020674-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Gestell pulverbeschichteter Stahl, Sitzfläche Textil; B × L × H: ca. 77 × 55 × 94 cm
+"
+Auflage für Stapelstuhl,9.99,https://www.aldi-nord.de/angebote/aktion-do-20-04/auflage-fuer-stapelstuhl-9424-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","52 % Polyester, 48 % Baumwolle; verstellbares Halteband im Rückenteil; B × L × H: ca. 45 × 109 × 5,5 cm, inkl. Stehsaum; verschiedene Farbvarianten
+"
+Bodensitzkissen,9.99,https://www.aldi-nord.de/angebote/aktion-do-20-04/bodensitzkissen-1009363-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Reine Baumwolle; mit Tragegriff; B × L × H: ca. 45 × 45 × 6,5 cm; verschiedene Farbvarianten
+"
+Solar-Außendeko,24.99,https://www.aldi-nord.de/angebote/aktion-do-20-04/solar-aussendeko-8130-2-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Kunststoff; mit Farbwechselfunktion; Leuchtdauer: ca. 8 Std. (bei optimaler Aufladung); ca. 20–38 cm hoch; inkl. Erdspieß und Akku; verschiedene Modelle
+ 
+ 
+"
+Solar-Gartenleuchte,8.99,https://www.aldi-nord.de/angebote/aktion-do-20-04/solar-gartenleuchte-8583-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Edelstahl, Kunststoff; je 1, 2 oder 66 LEDs; Lichtfarbe: weiß oder bernsteinfarben; Leuchtdauer: ca. 8 Std. (bei optimaler Aufladung); Ladezeit: ca. 6–8 Std.; inkl. 1–2 Akkus und Erdspieß; verschiedene Modelle
+"
+LED-/Solar-Gartenleuchten,29.99,https://www.aldi-nord.de/angebote/aktion-do-20-04/led-solar-gartenleuchten-5471-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","LED-Gartenleuchten, 2 bzw. 3 Stück, ca. 250/260 lm je Leuchte, Lichtfarbe: je warmweiß, bzw. Solar-Bodeneinbaustrahler oder Solar-Gartenleuchten, je 3 Stück, je mit Akkus, Leuchtdauer: je ca. 8 Std. (bei optimaler Aufladung), Ladezeit: je ca. 6–8 Std.; IP44; verschiedene Modelle
+"
+Solar-Dekoleuchte,6.99,https://www.aldi-nord.de/angebote/aktion-do-20-04/solar-dekoleuchte-596-4-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Leuchtdauer: ca. 8 Std. (bei optimaler Aufladung); Dämmerungssensor, automatisches Einschalten bei Sonnenuntergang; verschiedene Modelle
+"
+Jeansjacke,16.99,https://www.aldi-nord.de/angebote/aktion-do-20-04/jeansjacke-1020276-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Große Mode; 98 % Baumwolle, 2 % Elasthan (LYCRA®); verschiedene Farbvarianten
+ 
+46–56
+ 
+Mehr Infos rund um das Produkt und den Herstellungsprozess findest du hier.
+"
+T-Shirts,9.99,https://www.aldi-nord.de/angebote/aktion-do-20-04/t-shirts-1014090-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Große Mode; 50 % Baumwolle, 50 % Viskose (Lenzing™ EcoVero™), Single Jersey; verschiedene Farbvarianten
+ 
+48/50–56/58
+ 
+Mehr Infos rund um das Produkt und den Herstellungsprozess findest du hier.
+"
+Jeans,14.99,https://www.aldi-nord.de/angebote/aktion-do-20-04/jeans-1000462-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Große Mode; 80 % Baumwolle, 18 % Polyester, 2 % Elasthan (LYCRA®); verschiedene Modelle und Fabvarianten
+ 
+46–56
+ 
+Weitere Infos rund um das Produkt und den Herstellungsprozess findest du hier.
+"
+Leggings,5.99,https://www.aldi-nord.de/angebote/aktion-do-20-04/leggings-1007677-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Große Mode; 95 % Baumwolle, 5 % Elasthan (LYCRA®); verschiedene Farbvarianten
+ 
+44/46–56/58
+ 
+Mehr Infos rund um das Produkt und den Herstellungsprozess findest du hier.
+"
+Slips,5.99,https://www.aldi-nord.de/angebote/aktion-do-20-04/slips-4645-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Große Mode; reine Baumwolle; verschiedene Modelle und Farbvarianten
+ 
+40–54
+"
+Garten- und Rasenkalk,3.99,https://www.aldi-nord.de/angebote/aktion-do-20-04/garten-und-rasenkalk-2499-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Für einen gesunden, grünen Rasen sowie für Obst- und Ziergärten; mit hohem Magnesiumgehalt; ausreichend für ca. 100 m2
+"
+Rasen-Reparaturmischung,5.99,https://www.aldi-nord.de/angebote/aktion-do-20-04/rasen-reparaturmischung-8593-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Kombination aus Rasen-Saatgut und Dünger; ohne Umgraben; ausreichend für ca. 25 m2
+"
+Lavendel (Lavandula angustifolia),3.99,https://www.aldi-nord.de/angebote/aktion-do-20-04/lavendel-lavandula-angustifolia-7909-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Im 6er-Tray; direkt ins Tray getopft ohne Kulturtopf; ca. 15–20 cm hoch; winterharte Sorten, z. B. Hidcote Blue
+"
+Kübelpflanze,1.79,https://www.aldi-nord.de/angebote/aktion-do-20-04/kuebelpflanze-8590-1-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Im 9×9-cm-Vierecktopf; in SB-Schachtel inkl. Pflanzanleitung; ca. 34 cm hoch; verschiedene Sorten
+"
+Obstmix im Becher,2.99,https://www.aldi-nord.de/angebote/aktion-do-20-04/obstmix-im-becher-1006031-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Im 12-cm-Kulturtopf; ca. 12–40 cm hoch; verschiedene Sorten
+"
+Margeritenbusch,5.99,https://www.aldi-nord.de/angebote/aktion-do-20-04/margeritenbusch-1013623-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Im 18- bzw. 19-cm-Kulturtopf; ca. 45 cm hoch; Herkunft: Italien; Dauerblüher; verschiedene Farbvarianten
+"
+Oleanderbusch,6.99,https://www.aldi-nord.de/angebote/aktion-do-20-04/oleanderbusch-1013625-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Im recycelbaren 17-cm-Kulturtopf; ca. 50–60 cm hoch; getütet; Herkunft: Spanien; verschiedene Farbvarianten
+"
+Beerenstrauch,3.49,https://www.aldi-nord.de/angebote/aktion-do-20-04/beerenstrauch-1013649-0-0.article.html,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7","Im 2-L-Kulturtopf; ca. 55–65 cm hoch; winterhart; verschiedene Sorten
+"
+Campingtoilette Supreme,99.99,https://www.aldi-onlineshop.de/p/1017406/,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+Mobile Klimaanlage 9000 BTU MD37216,229.00,https://www.aldi-onlineshop.de/p/1015995/?cid=HH;Website;RG;Produktkachel;;AN;;;CG3;POE2;e,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+Campingkocher Nelson,49.99,https://www.aldi-onlineshop.de/p/1018112/?cid=HH;Website;RG;Produktkachel;;AN;;;CG3;POE2;e,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+2-flammiger Campingkocher Canberra,39.99,https://www.aldi-onlineshop.de/p/1018115/,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+"Camping-Outdoor-Set Tosca, 3-tlg.",99.99,https://www.aldi-onlineshop.de/p/1018226,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+Premium 2-Kammern Stand Up Paddle Board Set,249.00,https://www.aldi-onlineshop.de/p/1023271/?cid=HH;Website;RG;Produktkachel;;AN;;;CG3;POE2;e,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+Camping / Garten Liege Kevin XXL,69.99,https://www.aldi-onlineshop.de/p/1025718/?cid=HH;Website;RG;Produktkachel;;AN;;;CG3;POE2;e,"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
