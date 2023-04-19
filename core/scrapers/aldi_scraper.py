@@ -1,13 +1,10 @@
-"""
-Modified on Tue Apr 18 22:20:53 2023
-"""
-
 import configparser
 import json
 import os
 import re
 import sys
 import time
+from datetime import datetime
 from typing import Optional
 from urllib.parse import urljoin
 
@@ -18,25 +15,29 @@ from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 
+from core.scrapers.scrapers import AbstractScraper
+
 
 # Main scraper class
-class Scraper:
+class AldiScraper(AbstractScraper):
     def __init__(self):
-        self.config = self.read_config()
+        super().__init__()
         self.aldi_data_path = self.get_path(self.config["paths"]["aldi_data"])
 
     # Define the function to construct absolute path from relative paths
     @staticmethod
     def get_path(relative_path: str) -> str:
         script_dir = os.path.dirname(os.path.abspath(__file__))
-        final_path = os.path.join(script_dir, relative_path)
+        parent_dir = os.path.dirname(script_dir)
+        grandparent_dir = os.path.dirname(parent_dir)
+        final_path = os.path.join(grandparent_dir, relative_path)
         return final_path
 
     # Define the function to read the configuration settings from config.ini
     @staticmethod
     def read_config() -> configparser.ConfigParser:
         config = configparser.ConfigParser()
-        config_path = Scraper.get_path("../config.ini")
+        config_path = AldiScraper.get_path("./config.ini")
         config.read(config_path)
         return config
 
@@ -89,6 +90,11 @@ class Scraper:
         links = []
         img_urls = []
         descriptions = []
+        scraped_dates = []
+        date_published_list = []
+
+        # Store the current date
+        scraped_date = datetime.now().strftime("%Y-%m-%d")
 
         for i in p1:
             title = i.find("span", class_="mod-article-tile__title")
@@ -110,8 +116,14 @@ class Scraper:
                 try:
                     description_data = json.loads(description_json.string)
                     descriptions.append(description_data.get("description", ""))
+                    date_published_list.append(
+                        description_data.get("datePublished", "")
+                    )
                 except json.JSONDecodeError:
                     descriptions.append("")
+                    date_published_list.append("")
+
+            scraped_dates.append(scraped_date)
 
         df = pd.DataFrame()
         df["title"] = titles
@@ -119,12 +131,37 @@ class Scraper:
         df["article_link"] = links
         df["img_url"] = img_urls
         df["description"] = descriptions
+        df["scraped_date"] = scraped_dates
+        df["date_published"] = date_published_list
         return df
 
     # Define the function to export scraped data to csv
     def export_csv(self, df: pd.DataFrame) -> None:
         print("Data from Aldi scraped successfully")
-        df.to_csv(self.aldi_data_path, index=False, encoding="utf_8_sig")
+        if os.path.exists(self.aldi_data_path):
+            # Read the existing CSV file into a DataFrame
+            existing_df = pd.read_csv(self.aldi_data_path, encoding="utf_8_sig")
+
+            # Concatenate the new data with the existing data
+            combined_df = pd.concat([existing_df, df], ignore_index=True)
+
+            # Remove duplicate rows based on a subset of columns
+            combined_df = combined_df.drop_duplicates(
+                subset=[
+                    "title",
+                    "price",
+                    "article_link",
+                    "img_url",
+                    "description",
+                    "scraped_date",
+                ]
+            )
+
+            # Write the combined DataFrame to the CSV file
+            combined_df.to_csv(self.aldi_data_path, index=False, encoding="utf_8_sig")
+        else:
+            # Create a new CSV file with the header and data
+            df.to_csv(self.aldi_data_path, index=False, encoding="utf_8_sig")
 
     # Define the function to run the entire process
     def run(self) -> None:
@@ -133,5 +170,5 @@ class Scraper:
 
 
 if __name__ == "__main__":
-    scraper = Scraper()
+    scraper = AldiScraper()
     scraper.run()
