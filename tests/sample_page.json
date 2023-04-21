@@ -1,0 +1,45 @@
+{
+    "offers": [
+        {
+            "id": "1",
+            "title": "Product 1",
+            "price": {
+                "value": 1.99
+            },
+            "baseUnit": "100g",
+            "additionalTextApp": "Extra info 1",
+            "descriptions": "Description 1",
+            "images": {
+                "original": "https://example.com/image1.jpg"
+            }
+        },
+        {
+            "id": "2",
+            "title": "Product 2",
+            "price": {
+                "value": 2.99
+            },
+            "baseUnit": "250g",
+            "additionalTextApp": "Extra info 2",
+            "descriptions": "Description 2",
+            "images": {
+                "original": "https://example.com/image2.jpg"
+            }
+        },
+        {
+            "id": "3",
+            "title": "Product 3",
+            "price": {
+                "value": 3.99
+            },
+            "baseUnit": "500g",
+            "additionalTextApp": "Extra info 3",
+            "descriptions": "Description 3",
+            "images": {
+                "original": "https://example.com/image3.jpg"
+            }
+        }
+    ],
+    "validFrom": "2023-04-21",
+    "validTill": "2023-04-28"
+}
