@@ -77,7 +77,7 @@ class EdekaScraper(AbstractScraper):
             valid_from_list.append(page["validFrom"])
             valid_until_list.append(page["validTill"])
             scraped_dates.append(scraped_date)
-            descriptions.append(offers[i]["descriptions"])
+            descriptions.append(offers[i]["descriptions"][0])
             img_urls.append(offers[i]["images"]["original"])
             links.append("placeholder")
             prices.append(offers[i]["price"]["value"])
@@ -110,20 +110,7 @@ class EdekaScraper(AbstractScraper):
             combined_df = pd.concat([existing_df, df], ignore_index=True)
 
             # Remove duplicate rows based on a subset of columns
-            combined_df = combined_df.drop_duplicates(
-                subset=[
-                    "title",
-                    "price",
-                    "weight",
-                    "article_link",
-                    "img_url",
-                    "description",
-                    "scraped_date",
-                    "date_published",
-                    "date_expires",
-                    "extra_details",
-                ]
-            )
+            combined_df = combined_df.drop_duplicates(subset=["title", "img_url"])
 
             # Write the combined DataFrame to the CSV file
             combined_df.to_csv(self.edeka_data_path, index=False, encoding="utf_8_sig")

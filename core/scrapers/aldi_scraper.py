@@ -70,6 +70,7 @@ class AldiScraper(AbstractScraper):
 
         html_source = driver.page_source
         soup = BeautifulSoup(html_source, "html.parser")
+        driver.quit()
         return soup
 
     # Define the function for scraping with selenium
@@ -146,16 +147,7 @@ class AldiScraper(AbstractScraper):
             combined_df = pd.concat([existing_df, df], ignore_index=True)
 
             # Remove duplicate rows based on a subset of columns
-            combined_df = combined_df.drop_duplicates(
-                subset=[
-                    "title",
-                    "price",
-                    "article_link",
-                    "img_url",
-                    "description",
-                    "scraped_date",
-                ]
-            )
+            combined_df = combined_df.drop_duplicates(subset=["title", "img_url"])
 
             # Write the combined DataFrame to the CSV file
             combined_df.to_csv(self.aldi_data_path, index=False, encoding="utf_8_sig")
