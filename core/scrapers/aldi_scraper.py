@@ -88,11 +88,14 @@ class AldiScraper(AbstractScraper):
         base_url = "https://www.aldi-nord.de"
         titles = []
         prices = []
+        weights_list = []
         links = []
         img_urls = []
         descriptions = []
         scraped_dates = []
         date_published_list = []
+        valid_until_list = []
+        additional_text_list = []
 
         # Store the current date
         scraped_date = datetime.now().strftime("%Y-%m-%d")
@@ -104,6 +107,9 @@ class AldiScraper(AbstractScraper):
 
             img = i.find("img", class_="img-responsive")
             description_json = i.find("script", type="application/ld+json")
+            valid_until_list.append("placeholder")
+            weights_list.append("placeholder")
+            additional_text_list.append("palceholder")
 
             titles.append(title.text.strip())
             match: Optional[re.Match[str]] = re.search("[0-9.]+", price.text)
@@ -129,16 +135,22 @@ class AldiScraper(AbstractScraper):
         df = pd.DataFrame()
         df["title"] = titles
         df["price"] = prices
-        df["article_link"] = links
-        df["img_url"] = img_urls
+        df["weight"] = weights_list
         df["description"] = descriptions
-        df["scraped_date"] = scraped_dates
+        df["article_link"] = links
+        df["img_link"] = img_urls
+        df["extra_details"] = additional_text_list
         df["date_published"] = date_published_list
+        df["date_expires"] = valid_until_list
+        df["scraped_date"] = scraped_dates
         return df
 
     # Define the function to export scraped data to csv
     def export_csv(self, df: pd.DataFrame) -> None:
         print("Data from Aldi scraped successfully")
+        df.reset_index(inplace=True)
+        df.rename(columns={"index": "id"}, inplace=True)
+
         if os.path.exists(self.aldi_data_path):
             # Read the existing CSV file into a DataFrame
             existing_df = pd.read_csv(self.aldi_data_path, encoding="utf_8_sig")

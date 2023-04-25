@@ -151,6 +151,9 @@ class ReweScraper(AbstractScraper):
             descriptions = []
             scraped_dates = []
             valid_until_list = []
+            date_published_list = []
+            weights_list = []
+            additional_text_list = []
 
             # Store the current date
             scraped_date = datetime.now().strftime("%Y-%m-%d")
@@ -167,17 +170,23 @@ class ReweScraper(AbstractScraper):
                 )
                 img_urls.append(picture_links[i].get("data-src"))
                 descriptions.append("placeholder")
+                date_published_list.append("palceholder")
                 scraped_dates.append(scraped_date)
                 valid_until_list.append(date[0].text.split(",")[1].strip())
+                weights_list.append("palceholder")
+                additional_text_list.append("palceholder")
 
             df = pd.DataFrame()
             df["title"] = titles
             df["price"] = prices
-            df["article_link"] = links
-            df["img_url"] = img_urls
+            df["weight"] = weights_list
             df["description"] = descriptions
-            df["scraped_date"] = scraped_dates
+            df["article_link"] = links
+            df["img_link"] = img_urls
+            df["extra_details"] = additional_text_list
+            df["date_published"] = date_published_list
             df["date_expires"] = valid_until_list
+            df["scraped_date"] = scraped_dates
 
             master_df = pd.concat([master_df, df], ignore_index=True)
 
@@ -190,7 +199,10 @@ class ReweScraper(AbstractScraper):
 
     # Define the function to export scraped data to csv
     def export_csv(self, df: pd.DataFrame) -> None:
-        print("Data from Edeka scraped successfully")
+        print("Data from Rewe scraped successfully")
+        df.reset_index(inplace=True)
+        df.rename(columns={"index": "id"}, inplace=True)
+
         if os.path.exists(self.edeka_data_path):
             # Read the existing CSV file into a DataFrame
             existing_df = pd.read_csv(self.edeka_data_path, encoding="utf_8_sig")
