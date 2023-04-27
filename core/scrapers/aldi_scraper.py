@@ -96,6 +96,7 @@ class AldiScraper(AbstractScraper):
         date_published_list = []
         valid_until_list = []
         additional_text_list = []
+        store_location = []
 
         # Store the current date
         scraped_date = datetime.now().strftime("%Y-%m-%d")
@@ -104,20 +105,30 @@ class AldiScraper(AbstractScraper):
             title = i.find("span", class_="mod-article-tile__title")
             price = i.find("span", class_="price__wrapper")
             link = i.find("a")
-
+            weight_pattern = r'<span class="price__unit">\r?\n?([\d,]+(?:\.\d+)?)(?=-)'
+            weight_tag = i.find("span", class_="price__unit")
+            weight = re.search(weight_pattern, str(weight_tag))
             img = i.find("img", class_="img-responsive")
             description_json = i.find("script", type="application/ld+json")
-            valid_until_list.append("placeholder")
-            weights_list.append("placeholder")
-            additional_text_list.append("palceholder")
 
+            valid_until_list.append("placeholder")
+            additional_text_list.append("placeholder")
+            store_location.append("placeholder")
             titles.append(title.text.strip())
+            if weight:
+                weights_list.append(weight.group(1))
+            else:
+                weights_list.append("No weight information found")
             match: Optional[re.Match[str]] = re.search("[0-9.]+", price.text)
             if match is not None:
                 prices.append(match.group())
             links.append(urljoin(base_url, link["href"]))
+            img_urls_list = img["srcset"].split(", ")
+            img_sub_url = img_urls_list[0].split(" ")[0]
             img_urls.append(
-                urljoin(base_url, img["src"]) if img and img.has_attr("src") else None
+                urljoin(
+                    base_url, re.sub(r"/jcr:content/renditions/.*", "", img_sub_url)
+                )
             )
             if description_json:
                 try:
@@ -129,13 +140,12 @@ class AldiScraper(AbstractScraper):
                 except json.JSONDecodeError:
                     descriptions.append("")
                     date_published_list.append("")
-
             scraped_dates.append(scraped_date)
 
         df = pd.DataFrame()
         df["title"] = titles
         df["price"] = prices
-        df["weight"] = weights_list
+        df["weight (kg)"] = weights_list
         df["description"] = descriptions
         df["article_link"] = links
         df["img_link"] = img_urls
@@ -143,6 +153,7 @@ class AldiScraper(AbstractScraper):
         df["date_published"] = date_published_list
         df["date_expires"] = valid_until_list
         df["scraped_date"] = scraped_dates
+        df["store_location"] = store_location
         return df
 
     # Define the function to export scraped data to csv
@@ -159,7 +170,7 @@ class AldiScraper(AbstractScraper):
             combined_df = pd.concat([existing_df, df], ignore_index=True)
 
             # Remove duplicate rows based on a subset of columns
-            combined_df = combined_df.drop_duplicates(subset=["title", "img_url"])
+            combined_df = combined_df.drop_duplicates(subset=["title", "img_link"])
 
             # Write the combined DataFrame to the CSV file
             combined_df.to_csv(self.aldi_data_path, index=False, encoding="utf_8_sig")

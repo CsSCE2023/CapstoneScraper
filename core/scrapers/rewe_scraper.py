@@ -120,11 +120,14 @@ class ReweScraper(AbstractScraper):
             columns=[
                 "title",
                 "price",
-                "article_link",
-                "img_url",
+                "weight (kg)",
                 "description",
-                "scraped_date",
+                "article_link",
+                "img_link",
+                "extra_details",
+                "date_published",
                 "date_expires",
+                "scraped_date",
             ]
         )
 
@@ -139,7 +142,13 @@ class ReweScraper(AbstractScraper):
             item_links = page[soup][0].find_all(
                 "a", class_="cor-offer-information__title-link"
             )
-            store = soup
+            # Find all the 'cor-offer-information__additional' class elements
+            additional_info = page[soup][0].find_all(
+                class_="cor-offer-information__additional"
+            )
+            additional_info_text = " ".join(
+                [info.get_text(strip=True) for info in additional_info]
+            )
 
             base_url = urls[soup][
                 0
@@ -147,12 +156,12 @@ class ReweScraper(AbstractScraper):
             titles = []
             prices = []
             links = []
-            img_urls = []
             descriptions = []
+            img_urls = []
+            weights_list = []
             scraped_dates = []
             valid_until_list = []
             date_published_list = []
-            weights_list = []
             additional_text_list = []
 
             # Store the current date
@@ -169,17 +178,17 @@ class ReweScraper(AbstractScraper):
                     urljoin(base_url, f"#{item_links[i].get('data-offer-nan')}")
                 )
                 img_urls.append(picture_links[i].get("data-src"))
-                descriptions.append("placeholder")
-                date_published_list.append("palceholder")
+                date_published_list.append("placeholder")
                 scraped_dates.append(scraped_date)
                 valid_until_list.append(date[0].text.split(",")[1].strip())
-                weights_list.append("palceholder")
-                additional_text_list.append("palceholder")
+                weights_list.append("placeholder")
+                additional_text_list.append("placeholder")
+                descriptions.append("placeholder")
 
             df = pd.DataFrame()
             df["title"] = titles
             df["price"] = prices
-            df["weight"] = weights_list
+            df["weight (kg)"] = weights_list
             df["description"] = descriptions
             df["article_link"] = links
             df["img_link"] = img_urls
@@ -212,7 +221,7 @@ class ReweScraper(AbstractScraper):
 
             # Remove duplicate rows based on a subset of columns
             combined_df = combined_df.drop_duplicates(
-                subset=["title", "img_url", "article_link"]
+                subset=["title", "img_link", "article_link"]
             )
 
             # Write the combined DataFrame to the CSV file

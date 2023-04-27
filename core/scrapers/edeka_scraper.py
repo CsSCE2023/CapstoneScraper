@@ -1,5 +1,6 @@
 import configparser
 import os
+import re
 import sys
 from datetime import datetime
 
@@ -68,6 +69,7 @@ class EdekaScraper(AbstractScraper):
         ids = []
         additional_text_list = []
         weights_list = []
+        store_location = []
 
         # Store the current date
         scraped_date = datetime.now().strftime("%Y-%m-%d")
@@ -79,16 +81,21 @@ class EdekaScraper(AbstractScraper):
             scraped_dates.append(scraped_date)
             descriptions.append(offers[i]["descriptions"][0])
             img_urls.append(offers[i]["images"]["original"])
-            links.append("placeholder")
+            links.append("https://www.edeka.de/")
             prices.append(offers[i]["price"]["value"])
             titles.append(offers[i]["title"])
             additional_text_list.append(offers[i]["additionalTextApp"])
             weights_list.append(offers[i]["baseUnit"])
+            location_pattern = r"EDEKA-Markt[^.]*\d{5}\s*[^.]*\."
+            match = re.search(location_pattern, offers[i]["additionalTextApp"])
+            store_location.append(
+                match.group() if match else "Store location not found"
+            )
 
         df = pd.DataFrame()
         df["title"] = titles
         df["price"] = prices
-        df["weight"] = weights_list
+        df["weight (kg)"] = weights_list
         df["description"] = descriptions
         df["article_link"] = links
         df["img_link"] = img_urls
@@ -96,6 +103,7 @@ class EdekaScraper(AbstractScraper):
         df["date_published"] = valid_until_list
         df["date_expires"] = valid_from_list
         df["scraped_date"] = scraped_dates
+        df["store_location"] = store_location
 
         return df
 
@@ -113,7 +121,7 @@ class EdekaScraper(AbstractScraper):
             combined_df = pd.concat([existing_df, df], ignore_index=True)
 
             # Remove duplicate rows based on a subset of columns
-            combined_df = combined_df.drop_duplicates(subset=["title", "img_url"])
+            combined_df = combined_df.drop_duplicates(subset=["title", "img_link"])
 
             # Write the combined DataFrame to the CSV file
             combined_df.to_csv(self.edeka_data_path, index=False, encoding="utf_8_sig")
